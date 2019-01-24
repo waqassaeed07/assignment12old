@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>readproducts</title>
+    <link rel="stylesheet" href="new12.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="fh">Read products</h1>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-sm-4">
+                <button class="up">
+                    <a class="aa" href="createproducts.html">Create Products</a>
+                </button>
+            </div>
+            <div class="col-md-4 col-sm-8">
+                <p id="fp"></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+
+                <table class="table table-bordered">
+                    <tr>
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Description
+                        </th>
+                        <th>
+                            Price
+                        </th>
+                        <th>
+                            Catagory
+                        </th>
+                        <th>
+                            Action
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Pillow for Coders 2.4
+                        </td>
+                        <td>
+                            The Best Pillow For Programmers.It improves that their health.
+                        </td>
+                        <td>
+                            $25.00
+                        </td>
+                        <td>
+                            movies
+                        </td>
+                        <td>
+                            <button onclick="readpillow()" class="ro">Read One</button>
+                            <button onclick="edpillow()" class="ed">Edit</button>
+                            <button  onclick="delpillow()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Rolex Watch Men
+                        </td>
+                        <td>
+                            Luxury Watch.
+                        </td>
+                        <td>
+                            $250.00
+                        </td>
+                        <td>
+                            Fashion
+                        </td>
+                        <td>
+                            <button onclick="readrolex()" class="ro">Read One</button>
+                            <button onclick="edrolex()" class="ed">Edit</button>
+                            <button onclick="delrolex()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Bristol Shoes Men
+                        </td>
+                        <td>
+                            Awesome Shoes Seen In Movies
+                        </td>
+                        <td>
+                            $99.00
+                        </td>
+                        <td>
+                            Movies
+                        </td>
+                        <td>
+                            <button onclick="readbristol()" class="ro">Read One</button>
+                            <button onclick="edbristol()" class="ed">Edit</button>
+                            <button onclick="delbristol()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Nike Shoes For Men
+                        </td>
+                        <td>
+                            Nike Shoes
+                        </td>
+                        <td>
+                            $129.00
+                        </td>
+                        <td>
+                            Fashion
+                        </td>
+                        <td>
+                            <button onclick="readnike()" class="ro">Read One</button>
+                            <button onclick="ednike()" class="ed">Edit</button>
+                            <button onclick="delnike()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Amanda Walter Shirt Men
+                        </td>
+                        <td>
+                            New awsome Shirt
+                        </td>
+                        <td>
+                            $33.00
+                        </td>
+                        <td>
+                            Fashion
+                        </td>
+                        <td>
+                            <button onclick="readamanda()" class="ro">Read One</button>
+                            <button onclick="edamanda()" class="ed">Edit</button>
+                            <button onclick="delamanda()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Wallet Men
+                        </td>
+                        <td>
+                            You Can absolute use this one!
+                        </td>
+                        <td>
+                            $79.00
+                        </td>
+                        <td>
+                            Books
+                        </td>
+                        <td>
+                            <button onclick="readwallet()" class="ro">Read One</button>
+                            <button onclick="edwallet()" class="ed">Edit</button>
+                            <button onclick="delwallet()" class="dl">Delete</button>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            Another product Men
+                        </td>
+                        <td>
+                            Awsome product!
+                        </td>
+                        <td>
+                            $55.00
+                        </td>
+                        <td>
+                            Fashion
+                        </td>
+                        <td>
+                            <button onclick="readanother()" class="ro">Read One</button>
+                            <button onclick="edanother()" class="ed">Edit</button>
+                            <button onclick="delanother()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Abercromble Allen Brook Shirt
+                        </td>
+                        <td>
+                            Cool Red Shirt!
+                        </td>
+                        <td>
+                            $70.00
+                        </td>
+                        <td>
+                            Fashion
+                        </td>
+                        <td>
+                            <button onclick="readaberall()" class="ro">Read One</button>
+                            <button onclick="edaberall()" class="ed">Edit</button>
+                            <button onclick="delaberall()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Abercromble Lake Arnold Shirt
+                        </td>
+                        <td>
+                            Perfect As Gift!
+                        </td>
+                        <td>
+                            $60.00
+                        </td>
+                        <td>
+                            Fashion
+                        </td>
+                        <td>
+                            <button onclick="readaberlake()" class="ro">Read One</button>
+                            <button onclick="edaberlake()" class="ed">Edit</button>
+                            <button onclick="delaberlake()" class="dl">Delete</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="new12.js"></script>
+</body>
+
+</html>
